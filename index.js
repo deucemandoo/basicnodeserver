@@ -4,5 +4,5 @@ const port = 80
 
 app.get('/', (req, res) => {res.send("hello")})
 app.listen(port, ()=>{
-    console.log("listening on port")
+    console.log(`listening on port ${port}`)
 })
